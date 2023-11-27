@@ -1,0 +1,71 @@
+
+@media (max-width: 480px){
+    Body{
+        background-color:peachpuff;
+        text-align: center;
+    }
+    .content{
+        display:block;
+        width: 100%;
+        background-color:beige;
+        margin:50px 1px;
+        text-align:center;
+        border-radius:5%;
+    }
+    #image{
+        display:block;
+        width:100%;
+        justify-content: center;
+        height:300px;
+        border-top-left-radius:5%;
+        border-top-right-radius:5%;
+        margin:50px 1px 30px 1px;
+    }
+     .word{
+        color:black;
+        text-align: left;
+        margin-left: 20px;
+     }   
+     .perf{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        font-size:1.5rem;
+        color: darkgray;
+    }
+    h1, h2, h3{
+        font-weight: 700;
+        font-size:2.2rem;
+        font-family: 'Neuton', serif;
+    }
+    .floral{
+        font-size: 2.0rem;
+        font-family: 'Playfair Display', serif;
+        font-style: oblique;
+        margin: 0px 0px;
+    }
+    h2, h3{
+        display: inline-block;
+    }
+    h2{
+        color: rgb(66, 122, 67);
+        font-weight: 900;
+        font-size: 2.8rem; 
+    }
+    h3{
+        font-size: 1.6rem;
+        text-decoration: line-through;
+    }
+    .cartbox{
+        display:block;
+        background-color: rgb(68, 117, 69);
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:1.5rem;
+        padding: 20px 20px;
+        margin: 20px 15px 50px 15px;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+}
